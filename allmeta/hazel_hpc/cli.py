@@ -157,7 +157,7 @@ def cmd_collect(args):
             if row["status"] == "finished":
                 row.update(json.loads((d / "result.json").read_text())["result"])
                 if (d / "predictions.csv").exists():
-                    preds.append(pd.read_csv(d / "predictions.csv").assign(id=c["id"]))
+                    preds.append(pd.read_csv(d / "predictions.csv").assign(cell=c["id"]))   # trial id stays in "trial"
             rows.append(row)
         frame = pd.DataFrame(rows)
         frame.to_csv(out_dir / b / "summary.csv", index=False)

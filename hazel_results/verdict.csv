@@ -1,0 +1,28 @@
+model,variant,noise,outcome,metric,ks,n_liquids,wins,median_diff,sign_test_p,helps
+pooled,"{""use_descriptors"": false}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-3.785069273460615,3.0517578125e-05,True
+pooled,"{""use_descriptors"": true}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-3.519454982010589,3.0517578125e-05,True
+pacoh,"{""n_iter"": 6000, ""n_particles"": 10}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-3.35072275687521,3.0517578125e-05,True
+pacoh,"{""n_iter"": 6000, ""n_particles"": 1}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-3.308238163931592,3.0517578125e-05,True
+hyperbo,"{""prior"": ""empirical""}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-2.2556567684260043,3.0517578125e-05,True
+hyperbo,"{""prior"": ""gamma""}",homoskedastic,log_abs,nlpd,"3,5,10",15,15,-1.7811891782996128,3.0517578125e-05,True
+scaml,"{""weight_source"": ""descriptor_fixed""}",homoskedastic,log_abs,nlpd,"3,5,10",15,9,-0.646309223852942,0.303619384765625,False
+scaml,"{""weight_source"": ""descriptor_prior""}",homoskedastic,log_abs,nlpd,"3,5,10",15,9,-0.14872709653378458,0.303619384765625,False
+scaml,"{""weight_source"": ""data""}",homoskedastic,log_abs,nlpd,"3,5,10",15,1,14.776689448883516,0.999969482421875,False
+pacoh,"{""n_iter"": 6000, ""n_particles"": 10}",homoskedastic,log_sd,nlpd,"3,5,10",15,12,-0.18666709682029548,0.017578125,True
+pacoh,"{""n_iter"": 6000, ""n_particles"": 1}",homoskedastic,log_sd,nlpd,"3,5,10",15,13,-0.18038384683495945,0.003692626953125,True
+hyperbo,"{""prior"": ""empirical""}",homoskedastic,log_sd,nlpd,"3,5,10",15,11,-0.16132413148383518,0.059234619140625,False
+hyperbo,"{""prior"": ""gamma""}",homoskedastic,log_sd,nlpd,"3,5,10",15,11,-0.1604291141301757,0.059234619140625,False
+pooled,"{""use_descriptors"": false}",homoskedastic,log_sd,nlpd,"3,5,10",15,10,-0.13502037033851289,0.15087890625,False
+pooled,"{""use_descriptors"": true}",homoskedastic,log_sd,nlpd,"3,5,10",15,10,-0.12323384159758088,0.15087890625,False
+scaml,"{""weight_source"": ""descriptor_prior""}",homoskedastic,log_sd,nlpd,"3,5,10",15,1,0.26965446453971875,0.999969482421875,False
+scaml,"{""weight_source"": ""data""}",homoskedastic,log_sd,nlpd,"3,5,10",15,3,0.4566448925429305,0.996307373046875,False
+scaml,"{""weight_source"": ""descriptor_fixed""}",homoskedastic,log_sd,nlpd,"3,5,10",15,2,0.7759005027631156,0.99951171875,False
+pooled,"{""use_descriptors"": true}",homoskedastic,signed,nlpd,"3,5,10",15,14,-1.4072963798734,0.00048828125,True
+hyperbo,"{""prior"": ""empirical""}",homoskedastic,signed,nlpd,"3,5,10",15,14,-1.2531552797939196,0.00048828125,True
+scaml,"{""weight_source"": ""descriptor_fixed""}",homoskedastic,signed,nlpd,"3,5,10",15,14,-0.930132308596169,0.00048828125,True
+pacoh,"{""n_iter"": 6000, ""n_particles"": 1}",homoskedastic,signed,nlpd,"3,5,10",15,15,-0.8664550231085755,3.0517578125e-05,True
+pacoh,"{""n_iter"": 6000, ""n_particles"": 10}",homoskedastic,signed,nlpd,"3,5,10",15,15,-0.8378495955337395,3.0517578125e-05,True
+scaml,"{""weight_source"": ""descriptor_prior""}",homoskedastic,signed,nlpd,"3,5,10",15,11,-0.6984690375769571,0.059234619140625,False
+hyperbo,"{""prior"": ""gamma""}",homoskedastic,signed,nlpd,"3,5,10",15,13,-0.4609911522795014,0.003692626953125,True
+pooled,"{""use_descriptors"": false}",homoskedastic,signed,nlpd,"3,5,10",15,12,-0.418374948654327,0.017578125,True
+scaml,"{""weight_source"": ""data""}",homoskedastic,signed,nlpd,"3,5,10",15,7,0.15346044489324573,0.696380615234375,False

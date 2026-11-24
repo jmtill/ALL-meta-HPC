@@ -8,10 +8,10 @@ The folder is `hazel_hpc`, not `hazel-hpc`, because Python cannot import a name 
 
 | File | Role | Knows Slurm? |
 |---|---|---|
-| `../tasks.py` | per-liquid trial stats in trial order; source / context / query split; leakage check | no |
-| `../experiment.py` | `run_cell(cfg)`: one cell, meta-fit once, every k → flat dict of scores + `predictions.csv` | no |
-| `../gp_metrics.py` | RMSE, MAE, NLPD, z², 95% coverage, CRPS, Spearman, regret | no |
-| `../verdict.py` | the pre-set verdict rule A on `main/summary.csv` | no |
+| `../evaluation/tasks.py` | per-liquid trial stats in trial order; source / context / query split; leakage check | no |
+| `../evaluation/experiment.py` | `run_cell(cfg)`: one cell, meta-fit once, every k → flat dict of scores + `predictions.csv` | no |
+| `../evaluation/gp_metrics.py` | RMSE, MAE, NLPD, z², 95% coverage, CRPS, Spearman, regret | no |
+| `../evaluation/verdict.py` | the pre-set verdict rule A on `main/summary.csv` | no |
 | `../data/` | the GP inputs: `transfers.csv`, `conditions.csv`, `descriptors.csv`, `runs.csv` (selection audit), `build_data.py` | no |
 | `sweep.py` | sweep TOML → `configs.jsonl` + `job.sbatch` per block | yes |
 | `worker.py` | one array element: its slice of cells, skip finished, isolate failures, exit 75 on USR1/TERM | via env |
@@ -85,7 +85,7 @@ $C submit $S/tune.toml   &&  $C status $S/tune.toml         # stage 1
 $C select $S/tune.toml                                      # -> sweeps/tune/tuned.json
 $C submit $S/main.toml   &&  $C status $S/main.toml         # stage 2 (a collect job runs after it)
 $C resubmit $S/main.toml                                    # only elements with unfinished cells
-python -m allmeta.verdict /share/$GROUP/$USER/allmeta/sweeps/main/summary.csv -o verdict.csv   # rule A
+python -m allmeta.evaluation.verdict /share/$GROUP/$USER/allmeta/sweeps/main/summary.csv -o verdict.csv   # rule A
 rsync -av <unity-id>@login.hpc.ncsu.edu:/share/<group>/<unity-id>/allmeta/sweeps/main ./results/   # on your laptop, before the 30-day purge
 ```
 

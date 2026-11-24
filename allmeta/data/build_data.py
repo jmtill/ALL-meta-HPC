@@ -8,7 +8,7 @@ Selection, one row per run in runs.csv with the reason it was kept or dropped:
   complete   recorded >= 95% of budget x replicates per trial (same script, COMPLETENESS_THRESHOLD)
   no repeats one run per liquid: the first complete uncapped run; later runs of the same liquid are dropped
   not a test dry runs (liquid "test") are dropped
-Parsing, error definition and row cleaning are allmeta.campaign_ingest's, unchanged: e = (calc_weight / density -
+Parsing, error definition and row cleaning are allmeta.legacy.campaign_ingest's, unchanged: e = (calc_weight / density -
 V_target) / V_target from the raw gravimetry; replicates with |e| > 3 dropped; conditions with < 3 replicates dropped.
 Outputs: transfers.csv (replicates), conditions.csv (trial summaries), descriptors.csv (HSPiP "physics" set;
 a liquid with no HSPiP row, e.g. the glycerol-water mixture, gets an empty row), runs.csv (selection audit)."""
@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from allmeta import campaign_ingest as ci
+from allmeta.legacy import campaign_ingest as ci
 
 CAPPING_INTRODUCED = "2026-09-16"
 COMPLETENESS_THRESHOLD = 0.95

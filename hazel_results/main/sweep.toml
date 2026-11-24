@@ -1,0 +1,79 @@
+# Stage 2: the full factorial. Every block is target (16) x outcome (3) x model variant x noise level x seed,
+# each cell run over all context sizes k with one meta-fit. Blocks with `tuned = "tune"` read the settings
+# chosen by the nested search (run tune.toml and `cli select` first).
+[sweep]
+name         = "main"
+project_dir  = "/share/$GROUP/$USER/allmeta"
+env          = "/usr/local/usrapps/$GROUP/$USER/envs/allmeta"
+code_dir     = "$HOME/ALL-meta-HPC"   # the clone on Hazel
+max_parallel = 60
+
+[defaults]
+noise         = "homoskedastic"   # single-task blocks override it in their grid
+role          = "evaluate"
+protocol      = "kshot"
+context_sizes = [0, 3, 5, 10, 20, 40]
+query_start   = 40
+
+# Phase 16 within-liquid comparison: 5-fold CV over each liquid's 100 trials, single-task noise levels.
+[[block]]
+name     = "single_cv"
+profile  = "cpu-short"
+per_task = 32
+defaults = { protocol = "cv" }
+grid     = { model = "single", noise = ["homoskedastic", "fixed", "smoothed", "hetgp"], outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+
+# Single-task baseline on the k-shot curve (every transfer model is compared to these).
+[[block]]
+name     = "single_kshot"
+profile  = "cpu-short"
+per_task = 32
+grid     = { model = "single", noise = ["homoskedastic", "fixed", "smoothed", "hetgp"], outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+
+[[block]]
+name     = "scaml"
+profile  = "cpu-short"
+per_task = 6
+grid     = { model = "scaml", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ weight_source = "data" }, { weight_source = "descriptor_fixed" }]
+
+[[block]]
+name     = "scaml_tuned"
+profile  = "cpu-short"
+per_task = 6
+grid     = { model = "scaml", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ weight_source = "descriptor_prior" }]
+tuned    = "tune"
+
+[[block]]
+name     = "hyperbo"
+profile  = "cpu-short"
+per_task = 32
+grid     = { model = "hyperbo", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ prior = "gamma" }, { prior = "empirical" }]
+
+[[block]]
+name     = "pooled"
+profile  = "cpu-short"
+per_task = 8
+grid     = { model = "pooled", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ use_descriptors = true }, { use_descriptors = false }]
+
+[[block]]
+name     = "pacoh_map"
+profile  = "cpu-short"
+per_task = 4
+grid     = { model = "pacoh", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ n_particles = 1, n_iter = 6000 }]
+seeds    = [0, 1, 2]
+tuned    = "tune"
+
+[[block]]
+name     = "pacoh_svgd"
+profile  = "cpu-normal"
+per_task = 1
+grid     = { model = "pacoh", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ n_particles = 10, n_iter = 6000 }]
+seeds    = [0, 1, 2]
+tuned    = "tune"
+tuned_variant = { n_particles = 1, n_iter = 6000 }   # same hyperprior as MAP: reuse its prior_factor, feature_dim

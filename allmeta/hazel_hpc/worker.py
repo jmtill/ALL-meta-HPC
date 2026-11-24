@@ -38,7 +38,7 @@ def main(argv=None) -> int:
     import torch
     torch.set_num_threads(n_threads)
     torch.set_default_dtype(torch.float64)
-    from allmeta.experiment import run_cell
+    from allmeta.evaluation.experiment import run_cell
 
     cells = [json.loads(line) for line in Path(args.block_dir, "configs.jsonl").read_text().splitlines()]
     mine = cells[:args.local] if args.local else cells[args.index * args.per_task:(args.index + 1) * args.per_task]

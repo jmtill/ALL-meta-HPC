@@ -1,0 +1,91 @@
+key,params,score
+"pacoh|homoskedastic|log_abs|acetonitrile|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.9450212698554532
+"pacoh|homoskedastic|log_abs|anisole|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",2.035794307917582
+"pacoh|homoskedastic|log_abs|chlorobenzene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",2.006575594163554
+"pacoh|homoskedastic|log_abs|cyclohexane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.9816617788412696
+"pacoh|homoskedastic|log_abs|dimethyl-sulfoxide|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",2.10715143168798
+"pacoh|homoskedastic|log_abs|ethanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.9075262896848224
+"pacoh|homoskedastic|log_abs|ethyl-acetate|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.881531575909089
+"pacoh|homoskedastic|log_abs|glycerol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.8950802350788756
+"pacoh|homoskedastic|log_abs|heptane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.1782206662801482
+"pacoh|homoskedastic|log_abs|methanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.344510092922062
+"pacoh|homoskedastic|log_abs|n-methyl-2-pyrrolidone|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.241187080927477
+"pacoh|homoskedastic|log_abs|o-xylene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.2637846041571
+"pacoh|homoskedastic|log_abs|tetrahydrofuran|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.2648556916052554
+"pacoh|homoskedastic|log_abs|toluene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.2474853399277794
+"pacoh|homoskedastic|log_abs|water|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.1712601804228602
+"pacoh|homoskedastic|log_sd|acetonitrile|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.3565164895826836
+"pacoh|homoskedastic|log_sd|anisole|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.3720041881360758
+"pacoh|homoskedastic|log_sd|chlorobenzene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.3000978371609377
+"pacoh|homoskedastic|log_sd|cyclohexane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.371294961031067
+"pacoh|homoskedastic|log_sd|dimethyl-sulfoxide|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 0.1}",1.2972773716614308
+"pacoh|homoskedastic|log_sd|ethanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.399426282965092
+"pacoh|homoskedastic|log_sd|ethyl-acetate|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.3915320314873814
+"pacoh|homoskedastic|log_sd|glycerol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.3835992272982596
+"pacoh|homoskedastic|log_sd|heptane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1532643174289494
+"pacoh|homoskedastic|log_sd|methanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1407735994085606
+"pacoh|homoskedastic|log_sd|n-methyl-2-pyrrolidone|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.144407634316122
+"pacoh|homoskedastic|log_sd|o-xylene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1436031921711522
+"pacoh|homoskedastic|log_sd|tetrahydrofuran|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1474549777744931
+"pacoh|homoskedastic|log_sd|toluene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1417358949271041
+"pacoh|homoskedastic|log_sd|water|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 2, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",1.1534139147110405
+"pacoh|homoskedastic|signed|acetonitrile|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.21234584251905977
+"pacoh|homoskedastic|signed|anisole|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.20684010534803718
+"pacoh|homoskedastic|signed|chlorobenzene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.21398977746209424
+"pacoh|homoskedastic|signed|cyclohexane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.20834988588191702
+"pacoh|homoskedastic|signed|dimethyl-sulfoxide|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.24428235672701978
+"pacoh|homoskedastic|signed|ethanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.2414989737881972
+"pacoh|homoskedastic|signed|ethyl-acetate|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.21487571268474662
+"pacoh|homoskedastic|signed|glycerol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-1.2983809689989072
+"pacoh|homoskedastic|signed|heptane|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",0.07591502275366338
+"pacoh|homoskedastic|signed|methanol|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.20239179928701415
+"pacoh|homoskedastic|signed|n-methyl-2-pyrrolidone|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.22727154542008954
+"pacoh|homoskedastic|signed|o-xylene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.2508633955549227
+"pacoh|homoskedastic|signed|tetrahydrofuran|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",0.08330694823734165
+"pacoh|homoskedastic|signed|toluene|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.2363930420619763
+"pacoh|homoskedastic|signed|water|{""n_iter"": 6000, ""n_particles"": 1}","{""feature_dim"": 5, ""n_iter"": 6000, ""n_particles"": 1, ""prior_factor"": 1.0}",-0.18425478075518678
+"scaml|homoskedastic|log_abs|acetonitrile|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",5.357556306251495
+"scaml|homoskedastic|log_abs|anisole|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",5.386967299804884
+"scaml|homoskedastic|log_abs|chlorobenzene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",5.436126115498413
+"scaml|homoskedastic|log_abs|cyclohexane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",5.427040885448618
+"scaml|homoskedastic|log_abs|dimethyl-sulfoxide|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",6.934923713353836
+"scaml|homoskedastic|log_abs|ethanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",5.418733880954213
+"scaml|homoskedastic|log_abs|ethyl-acetate|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.793497148170815
+"scaml|homoskedastic|log_abs|glycerol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",4.9265835152059045
+"scaml|homoskedastic|log_abs|heptane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.42707150912393
+"scaml|homoskedastic|log_abs|methanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.382905335047688
+"scaml|homoskedastic|log_abs|n-methyl-2-pyrrolidone|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.5173236065700437
+"scaml|homoskedastic|log_abs|o-xylene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",3.9687570325440826
+"scaml|homoskedastic|log_abs|tetrahydrofuran|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.362635133473727
+"scaml|homoskedastic|log_abs|toluene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",2.578368986547355
+"scaml|homoskedastic|log_abs|water|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",3.0738132941972043
+"scaml|homoskedastic|log_sd|acetonitrile|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",2.1033870390346503
+"scaml|homoskedastic|log_sd|anisole|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",2.1788224467995847
+"scaml|homoskedastic|log_sd|chlorobenzene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",2.158471107447033
+"scaml|homoskedastic|log_sd|cyclohexane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",2.1405627108677945
+"scaml|homoskedastic|log_sd|dimethyl-sulfoxide|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.9924642873629697
+"scaml|homoskedastic|log_sd|ethanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.8393099852055597
+"scaml|homoskedastic|log_sd|ethyl-acetate|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.8577074711300385
+"scaml|homoskedastic|log_sd|glycerol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.8482858995754636
+"scaml|homoskedastic|log_sd|heptane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.764983528493848
+"scaml|homoskedastic|log_sd|methanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.6870700146987858
+"scaml|homoskedastic|log_sd|n-methyl-2-pyrrolidone|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.6151799180225852
+"scaml|homoskedastic|log_sd|o-xylene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.664690633114818
+"scaml|homoskedastic|log_sd|tetrahydrofuran|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.741512384854708
+"scaml|homoskedastic|log_sd|toluene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.5328377293565942
+"scaml|homoskedastic|log_sd|water|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",1.5150885329603847
+"scaml|homoskedastic|signed|acetonitrile|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.4245511920025322
+"scaml|homoskedastic|signed|anisole|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.430904460240549
+"scaml|homoskedastic|signed|chlorobenzene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.4443284225068363
+"scaml|homoskedastic|signed|cyclohexane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.44399788325561773
+"scaml|homoskedastic|signed|dimethyl-sulfoxide|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.5666363141544098
+"scaml|homoskedastic|signed|ethanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",0.003371232174132511
+"scaml|homoskedastic|signed|ethyl-acetate|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",0.07206074777161171
+"scaml|homoskedastic|signed|glycerol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-1.25914393643849
+"scaml|homoskedastic|signed|heptane|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.2617526623288193
+"scaml|homoskedastic|signed|methanol|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.28057942856351614
+"scaml|homoskedastic|signed|n-methyl-2-pyrrolidone|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",-0.0967280118508677
+"scaml|homoskedastic|signed|o-xylene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 8.0, ""weight_source"": ""descriptor_prior""}",0.20907890017013117
+"scaml|homoskedastic|signed|tetrahydrofuran|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",-0.27376471405808617
+"scaml|homoskedastic|signed|toluene|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",-0.1519140059104843
+"scaml|homoskedastic|signed|water|{""weight_source"": ""descriptor_prior""}","{""descriptor_concentration"": 1.0, ""weight_source"": ""descriptor_prior""}",-0.06194631766722373

@@ -37,7 +37,7 @@ def load(path) -> dict:
 
 
 def all_liquids(code_dir=None) -> list[str]:
-    from allmeta.tasks import factorial_liquids
+    from allmeta.evaluation.tasks import factorial_liquids
     return factorial_liquids()
 
 
@@ -51,7 +51,7 @@ def config_id(block, index, cfg) -> str:
 
 
 def expand_block(sweep, block) -> list[dict]:
-    from allmeta.experiment import valid
+    from allmeta.evaluation.experiment import valid
     grid = dict(block.get("grid", {}))
     if grid.get("target") == "all":
         grid["target"] = all_liquids(sweep["sweep"]["code_dir"])

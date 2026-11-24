@@ -1,0 +1,39 @@
+# Stage 1: nested hyperparameter search. For each outer target, n_inner other liquids take turns as the target
+# with the outer target removed from the data, so the scored liquid never shapes its own settings.
+# Score = mean inner NLPD over tune_ks. Then `cli select` writes sweeps/tune/tuned.json for main.toml.
+# Only settings that are genuine hyperparameters are searched; model variants are factors in main.toml.
+[sweep]
+name         = "tune"
+project_dir  = "/share/$GROUP/$USER/allmeta"
+env          = "/usr/local/usrapps/$GROUP/$USER/envs/allmeta"
+code_dir     = "$HOME/ALL-meta-HPC"   # the clone on Hazel
+max_parallel = 60
+
+[defaults]
+noise         = "homoskedastic"   # single-task blocks override it in their grid
+role        = "tune"
+n_inner     = 4
+inner_seed  = 0
+tune_ks     = [3, 10, 20]
+query_start = 40
+
+# ScaML-GP descriptor-prior weights: strength of the Gamma prior around the descriptor similarities.
+[[block]]
+name     = "scaml"
+profile  = "cpu-short"
+per_task = 2
+grid     = { model = "scaml", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ weight_source = "descriptor_prior" }]
+# concentration = Gamma shape; below 1 its density is unbounded at w = 0 and every MAP start fails (seen in smoke)
+search   = { descriptor_concentration = [1.0, 2.0, 8.0] }
+
+# PACOH MAP (one particle): hyperprior strength and NN feature dimension.
+[[block]]
+name     = "pacoh_map"
+profile  = "cpu-short"
+per_task = 1
+grid     = { model = "pacoh", outcome = ["signed", "log_sd", "log_abs"], target = "all" }
+variants = [{ n_particles = 1, n_iter = 6000 }]
+search   = { prior_factor = [0.01, 0.1, 1.0], feature_dim = [2, 5] }
+
+# PACOH SVGD is not tuned separately (~390 CPU-h): main.toml gives it the settings tuned for PACOH MAP.

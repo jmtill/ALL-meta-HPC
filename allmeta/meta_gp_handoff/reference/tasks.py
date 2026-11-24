@@ -9,7 +9,7 @@ Facts checked on 2026-11-23 against data/campaign_ingest/conditions.csv and the 
   - each optimization run starts with 1 centre point + 9 Sobol points (Ax Sobol, seed 42), then BoTorch
   - condition_id looks like '2026_08_01_acetonitrile::optimization::trial_10'; string order puts trial_10
     before trial_2, so trial order must come from the parsed trial number
-  - allmeta.campaign_ingest.load()['conditions'] and allmeta.campaign_ingest.eligible_liquids(conditions) exist
+  - allmeta.legacy.campaign_ingest.load()['conditions'] and allmeta.legacy.campaign_ingest.eligible_liquids(conditions) exist
 """
 from dataclasses import dataclass
 

@@ -1,0 +1,452 @@
+{
+ "pacoh|homoskedastic|log_abs|acetonitrile|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|anisole|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_abs|chlorobenzene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|cyclohexane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|dimethyl-sulfoxide|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_abs|ethanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_abs|ethyl-acetate|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|glycerol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_abs|heptane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|methanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|n-methyl-2-pyrrolidone|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|o-xylene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|tetrahydrofuran|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|toluene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_abs|water|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_sd|acetonitrile|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|anisole|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_sd|chlorobenzene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_sd|cyclohexane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|dimethyl-sulfoxide|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 0.1
+ },
+ "pacoh|homoskedastic|log_sd|ethanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|ethyl-acetate|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|glycerol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|heptane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|methanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|n-methyl-2-pyrrolidone|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|o-xylene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|tetrahydrofuran|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|toluene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|log_sd|water|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 2,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|acetonitrile|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|anisole|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|chlorobenzene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|cyclohexane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|dimethyl-sulfoxide|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|ethanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|ethyl-acetate|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|glycerol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|heptane|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|methanol|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|n-methyl-2-pyrrolidone|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|o-xylene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|tetrahydrofuran|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|toluene|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "pacoh|homoskedastic|signed|water|{\"n_iter\": 6000, \"n_particles\": 1}": {
+  "feature_dim": 5,
+  "n_iter": 6000,
+  "n_particles": 1,
+  "prior_factor": 1.0
+ },
+ "scaml|homoskedastic|log_abs|acetonitrile|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|anisole|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|chlorobenzene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|cyclohexane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|dimethyl-sulfoxide|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|ethanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|ethyl-acetate|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|glycerol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|heptane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|methanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|n-methyl-2-pyrrolidone|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|o-xylene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|tetrahydrofuran|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|toluene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_abs|water|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|acetonitrile|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|anisole|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|chlorobenzene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|cyclohexane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|dimethyl-sulfoxide|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|ethanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|ethyl-acetate|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|glycerol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|heptane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|methanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|n-methyl-2-pyrrolidone|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|o-xylene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|tetrahydrofuran|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|toluene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|log_sd|water|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|acetonitrile|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|anisole|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|chlorobenzene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|cyclohexane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|dimethyl-sulfoxide|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|ethanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|ethyl-acetate|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|glycerol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|heptane|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|methanol|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|n-methyl-2-pyrrolidone|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|o-xylene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 8.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|tetrahydrofuran|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|toluene|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ },
+ "scaml|homoskedastic|signed|water|{\"weight_source\": \"descriptor_prior\"}": {
+  "descriptor_concentration": 1.0,
+  "weight_source": "descriptor_prior"
+ }
+}

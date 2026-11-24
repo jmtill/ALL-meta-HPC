@@ -1,9 +1,9 @@
 """Check noise.py (N1-N3) and log_normal.py: synthetic known noise, then toluene optimization trials."""
 import math, warnings, time, pandas as pd, torch
 warnings.filterwarnings("ignore"); torch.set_default_dtype(torch.float64)
-from allmeta.trial_stats import TrialStats, from_replicates
-from allmeta.noise import fit_noise_model
-from allmeta.log_normal import fit_log_normal_gp
+from allmeta.core.trial_stats import TrialStats, from_replicates
+from allmeta.noise.levels import fit_noise_model
+from allmeta.noise.log_normal import fit_log_normal_gp
 
 print("== 1. synthetic: sd(x) = 0.06 + 0.32 x, 21 x 6, six seeds; mean |log error| of noise SD and mean RMSE")
 f = lambda X: torch.sin(2 * math.pi * X[:, 0]) + 0.25 * torch.sin(4 * math.pi * X[:, 0])
