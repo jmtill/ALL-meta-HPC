@@ -1,0 +1,11 @@
+# Hazel conda env for the factorial sweeps (CPU only). On a login node, from this folder:
+#   conda env create --prefix /usr/local/usrapps/$GROUP/$USER/envs/allmeta -f environment.yml
+# The pip packages and their versions live in requirements.txt (tested 2026-11-24: BoTorch 0.18.1, GPyTorch 1.15.2).
+name: allmeta
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt

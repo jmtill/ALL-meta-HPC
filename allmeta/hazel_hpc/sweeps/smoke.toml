@@ -1,0 +1,44 @@
+# Smoke test: 2 targets, every block type, a few k. Run locally first:
+#   PYTHONPATH=src python -m allmeta.hazel_hpc.cli local src/allmeta/hazel_hpc/sweeps/smoke.toml --n 1 --project-dir /tmp/allmeta
+# then on Hazel:  ... cli submit src/allmeta/hazel_hpc/sweeps/smoke.toml --test 1
+[sweep]
+name         = "smoke"
+project_dir  = "/share/$GROUP/$USER/allmeta"
+env          = "/usr/local/usrapps/$GROUP/$USER/envs/allmeta"
+code_dir     = "$HOME/ALL-meta-HPC"   # the clone on Hazel
+max_parallel = 10
+
+[defaults]
+noise         = "homoskedastic"   # single-task blocks override it in their grid
+role          = "evaluate"
+protocol      = "kshot"
+context_sizes = [0, 5, 20]
+query_start   = 40
+
+[[block]]
+name     = "single"
+profile  = "cpu-short"
+per_task = 16
+grid     = { model = "single", noise = ["homoskedastic", "fixed", "smoothed", "hetgp"], outcome = ["signed", "log_sd", "log_abs"], target = ["toluene", "heptane"] }
+
+[[block]]
+name     = "transfer"
+profile  = "cpu-short"
+per_task = 4
+grid     = { model = ["scaml", "hyperbo", "pooled"], outcome = "signed", target = ["toluene", "heptane"] }
+
+[[block]]
+name     = "pacoh"
+profile  = "cpu-short"
+per_task = 2
+grid     = { model = "pacoh", outcome = "signed", target = ["toluene", "heptane"] }
+variants = [{ n_particles = 1, n_iter = 300 }]
+
+[[block]]
+name     = "tune"
+profile  = "cpu-short"
+per_task = 2
+defaults = { role = "tune", n_inner = 2, tune_ks = [5, 20] }
+grid     = { model = "scaml", outcome = "signed", target = "toluene" }
+variants = [{ weight_source = "descriptor_prior" }]
+search   = { descriptor_concentration = [1.0, 8.0] }

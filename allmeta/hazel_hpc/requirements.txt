@@ -1,0 +1,13 @@
+# Python >= 3.11 (tomllib; BoTorch 0.18.1). CPU-only torch: the GPs run in float64 on small data.
+# Hazel:   conda env create --prefix /usr/local/usrapps/$GROUP/$USER/envs/allmeta -f environment.yml   (uses this file)
+# Laptop:  python -m venv .venv && .venv/bin/pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+botorch==0.18.1
+gpytorch==1.15.2
+linear_operator>=0.6.1
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+# Only for rebuilding allmeta/data from the raw campaigns (data/build_data.py), not needed on Hazel:
+# scikit-learn  openpyxl

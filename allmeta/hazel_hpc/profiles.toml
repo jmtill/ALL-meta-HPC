@@ -1,0 +1,21 @@
+# Resource classes for the sweep blocks (Hazel Slurm, CPU only). A block's `resources` table overrides any field.
+# Cell timings measured on 2 threads in the build container (2026-11-24, toluene, k = 0, 3, 5, 10, 20, 40):
+#   single-task 2-3 s (5-fold CV ~10 s) | HyperBO+ 3 s | ScaML descriptor weights 43 s, data weights 174 s
+#   pooled features 59 s | PACOH MAP (6,000 steps) ~4.5 min | PACOH SVGD K = 10 (6,000 steps) ~40 min
+# Packing (per_task in the sweeps) keeps each short-QOS element under ~30 min at those speeds, leaving room for
+# Hazel cores up to ~3x slower. Check with `cli submit ... --test 1` and `seff JOBID`, then set
+# time = measured x 1.5 and mem = MaxRSS x 1.3. Threads beyond the cores allocated slowed a cell >100x in testing:
+# the job script ties OMP/MKL/torch threads to --cpus-per-task, never raise one without the other.
+
+[cpu-short]           # < 2 h per element -> short QOS on the partner pool (wider pool, often starts sooner)
+partition = "compute_partners"
+qos       = "short"
+cpus      = 2
+mem       = "4G"
+time      = "01:55:00"
+
+[cpu-normal]          # one PACOH-SVGD cell per element (~40 min here; up to ~2 h on slow nodes)
+partition = "compute"
+cpus      = 2
+mem       = "4G"
+time      = "06:00:00"
